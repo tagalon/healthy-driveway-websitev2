@@ -1,0 +1,20 @@
+@tailwind base;
+
+a {
+  @apply text-primary;
+}
+a:hover {
+  @apply text-primary-darker;
+}
+
+header.fixed {
+  position: fixed;
+}
+
+.bg-green-custom {
+  background-color: #8FBC8F;
+}
+
+@tailwind components;
+
+@tailwind utilities;

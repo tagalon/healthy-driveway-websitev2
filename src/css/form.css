@@ -1,0 +1,10 @@
+.form-contact {
+    max-width:500px;
+    margin:2rem auto;
+    border:2px solid #F8F8FF;
+    padding:2rem;
+}
+
+ScrollLink.a {
+    font-size: 100px;
+  }
