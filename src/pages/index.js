@@ -29,24 +29,8 @@ export default () => (
           </div>
         </div>
         
-          {/* <p className="mt-8 md:mt-12"> */}
-          {/* <div class="p-4 xl:w-1/60 md:w-1/2 w-full">
-        <div class="h-full p-10 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden"
-            style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center"
-          }}>
-          <span class="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">BEFORE & AFTER</span>
-          <iframe frameborder="0" class="juxtapose" width="100%" height="300" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=76dd44d0-d5d9-11ea-bf88-a15b6c7adf9a"></iframe>
-          </div>
-          </div> */}
-        {/* <div className="lg:w-1/2"> */}
-          {/* <div class="p-4 xl:w-1/25 md:w-1/2 w-full"
-            style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center"}}> */}
+          {/* <p className="mt-8 md:mt-12"> */
+        
       
         <div class="h-full p-16 rounded-lg border-2 border-green-700 flex flex-col relative overflow-hidden">
         <span class="bg-green-700 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">60% OFF</span>
@@ -85,12 +69,11 @@ export default () => (
           </button>
           <p class="text-xs text-gray-500 mt-3">Healthy Driveway's Summer Special has already brought in over 500 DFW customers!</p>
         </div>
-      </div>
 
       
         {/* </div> */}
       {/* </div> */}
-    </section>
+    // </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Benefits of Powerwashing Driveway</h2>
@@ -141,7 +124,7 @@ export default () => (
       secondarySlot={<iframe frameborder="0" class="juxtapose" width="100%" height="800" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=76dd44d0-d5d9-11ea-bf88-a15b6c7adf9a">
 
       </iframe>}
-    />
+    <section/>
     <SplitSection
       reverseOrder
       primarySlot={
